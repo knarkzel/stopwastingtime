@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop Wasting Time</title>
+    <style>
+      body {
+        width: 600px;
+        padding: 0.5em 1em;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0 0.25em;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      input, textarea {
+        width: 100%;
+        display: block;
+        margin-bottom: 1em;
+      }
+
+      button {
+        width: 100%;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Stop Wasting Time</h1>
+    <form id="StopWastingTimeSettings">
+      <label for="StopWastingTimeKeywords">Keywords to block in title:</label>
+      <textarea id="StopWastingTimeKeywords" name="StopWastingTimeKeywords" rows="4" placeholder="Keywords such as memes etc."></textarea>
+      <button id="StopWastingTimeSave">Save</button>
+    </form>
+    <script src="settings.js"></script>
+  </body>
+</html>
